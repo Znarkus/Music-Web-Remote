@@ -29,6 +29,7 @@ unset($group_stations);
 <head>
 	<meta charset="utf-8" />
 	<title>Radio</title>
+	<meta name="viewport" content="width=device-width" />
 </head>
 <body>
 
