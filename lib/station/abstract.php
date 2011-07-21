@@ -6,7 +6,7 @@ abstract class Lib_Station_Abstract
 	private $_station;
 	private $_pidManager;
 	
-	abstract public function play();
+	abstract public function play($volume);
 	
 	public function __construct($group, $station)
 	{
@@ -42,8 +42,9 @@ abstract class Lib_Station_Abstract
 		$this->_pidManager->delete();
 	}
 	
-	protected function _run($command)
+	protected function _run($command, $parameters = array())
 	{
+		$command = vsprintf($command, array_map('escapeshellarg', $parameters));
 		exec("{$command} > /dev/null 2>&1 & echo \$!", $return);
 		$this->_pidManager->save($return[0]);
 	}

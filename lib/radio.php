@@ -10,13 +10,13 @@ class Lib_Radio
 		
 	}
 	
-	public function command($command, $group_name, $station_name)
+	public function command($parameters)
 	{
-		$station = Lib_Station_Factory::create($group_name, $station_name);
+		$station = Lib_Station_Factory::create($parameters['group'], $parameters['station']);
 		
-		switch ($command) {
+		switch ($parameters['command']) {
 			case self::COMMAND_PLAY:
-				$station->play();
+				$station->play(isset($parameters['volume']) ? $parameters['volume'] : null);
 			break;
 			
 			case self::COMMAND_STOP:
@@ -24,7 +24,7 @@ class Lib_Radio
 			break;
 			
 			default:
-				throw new InvalidArgumentException("Invalid command {$command}");
+				throw new InvalidArgumentException("Invalid command {$parameters['command']}");
 		}
 	}
 	

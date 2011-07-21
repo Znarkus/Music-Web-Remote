@@ -2,6 +2,8 @@
 Music Web Remote
 ================
 
+![Music Web Remote](http://i.imgur.com/FqsPG.png)
+
 Copyright 2011, Markus Hedlund, Mimmin AB, www.mimmin.com. Licensed under the MIT License. Redistributions of files must retain the above copyright notice.
 
 
@@ -9,6 +11,8 @@ Copyright 2011, Markus Hedlund, Mimmin AB, www.mimmin.com. Licensed under the MI
 Features
 --------
 
+* Radio
+* Volume controller
 * PHP 5.3 optimized, well structured and extensible code
 * The UI should work on both mobile and desktop
 * CLI

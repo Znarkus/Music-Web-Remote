@@ -2,8 +2,14 @@
 
 class Station_Sweden_P3 extends Lib_Station_Abstract
 {
-	public function play()
+	public function play($volume = null)
 	{
-		$this->_run('mplayer -playlist http://sverigesradio.se/topsy/direkt/164-mp3.asx');
+		$command = 'mplayer -playlist http://sverigesradio.se/topsy/direkt/164-mp3.asx';
+		
+		if ($volume) {
+			$this->_run("{$command} -volume %s", array($volume));
+		} else {
+			$this->_run($command);
+		}
 	}
 }

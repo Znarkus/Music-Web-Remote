@@ -13,7 +13,7 @@ set_error_handler(function($errno, $errstr, $errfile, $errline){
 	$backtrace = array_slice(debug_backtrace(), 1);
 	
 	if (ENV !== 'console') {
-		while (ob_get_clean() !== '') {};
+		while (ob_get_clean()) {};
 	}
 	
 	if (ENV !== 'default') {
