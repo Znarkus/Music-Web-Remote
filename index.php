@@ -28,8 +28,9 @@ unset($group_stations);
 <html>
 <head>
 	<meta charset="utf-8" />
-	<title>Radio</title>
+	<title>Music Web Remote</title>
 	<meta name="viewport" content="width=device-width" />
+	<meta http-equiv="refresh" content="30" />
 </head>
 <body>
 
