@@ -2,7 +2,7 @@
 Music Web Remote
 ================
 
-![Music Web Remote](http://i.imgur.com/FqsPG.png)
+![Music Web Remote](http://labs2.mimmin.com/music-web-remote/screen.png)
 
 Copyright 2011, Markus Hedlund, Mimmin AB, www.mimmin.com. Licensed under the MIT License. Redistributions of files must retain the above copyright notice.
 
