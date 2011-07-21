@@ -9,10 +9,10 @@ Copyright 2011, Markus Hedlund, Mimmin AB, www.mimmin.com. Licensed under the MI
 Features
 --------
 
-* PHP 5.3 optimized, well structured and extensible code.
-* The UI should work on both mobile and desktop.
-* CLI.
-* Can be used as an alarm clock through cron.
+* PHP 5.3 optimized, well structured and extensible code
+* The UI should work on both mobile and desktop
+* CLI
+* Create a powerful alarm clock with cron and the CLI
 
 
 
