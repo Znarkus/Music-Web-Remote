@@ -52,7 +52,7 @@ That works for me on Ubuntu. Add this to `root`'s crontab, and you got yourself 
 
 
 
-Contribute / contact
+Contribute / Contact
 --------------------
 
 Do you want to help? Awesome! I'll gladly take all the help I can get, especially more radio stations. You can contact me at markus@mimmin.com.
