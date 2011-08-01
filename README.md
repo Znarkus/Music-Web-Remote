@@ -1,6 +1,7 @@
-
 Music Web Remote
 ================
+
+Connect speakers to your server and play Internet radio through a PHP interface.
 
 ![Music Web Remote](http://labs2.mimmin.com/music-web-remote/screen.png)
 
