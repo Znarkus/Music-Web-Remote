@@ -1,7 +1,7 @@
 Music Web Remote
 ================
 
-Connect speakers to your server and play Internet radio through a PHP interface.
+Connect speakers to your server and play Internet radio through a PHP interface. **Please note that I've abandoned this project and [started working on version 2, which is written in Node.JS and PHP](https://github.com/Znarkus/Alarm-clock).**
 
 ![Music Web Remote](http://labs2.mimmin.com/music-web-remote/screen.png)
 
